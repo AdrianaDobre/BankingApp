@@ -77,4 +77,3 @@ timestamp
 JDBC.
 Să se realizeze servicii care sa expună operații de tip create, read, update si delete pentru cel 
 puțin 4 dintre clasele definite.
- 
