@@ -1,0 +1,96 @@
+Tip obiect: Client 
+A fost creat: 2022-05-01 14:27:33.465
+Obiectul: Client Id: 100
+Client First Name: Adriana
+Client Last Name: Dobre
+Client Phone Number: 0743067775
+Client Address: Str.Soarelui-Nr.15
+Client Date Of Birth: 09-Apr-2001
+Client Mail Address: dobre.adriana@yahoo.com
+
+Tip obiect: Client 
+A fost creat: 2022-05-01 14:27:33.497
+Obiectul: Client Id: 101
+Client First Name: Ana-Maria
+Client Last Name: Costache
+Client Phone Number: 0743074112
+Client Address: Str.Curcubeului-Nr.14
+Client Date Of Birth: 03-Aug-2004
+Client Mail Address: anamaria@yahoo.com
+
+Tip obiect: Client 
+A fost creat: 2022-05-01 14:28:07.498
+Obiectul: Client Id: 102
+Client First Name: Ioana
+Client Last Name: Niculai
+Client Phone Number: 0743006798
+Client Address: Str. Florilor - Nr. 20
+Client Date Of Birth: 09-Sep-2001
+Client Mail Address: niculai.ioana@yahoo.com
+
+Tip obiect: Account 
+A fost creat: 2022-05-01 14:28:31.679
+Obiectul: Account Id: 200
+Account IBAN: RO35INGB0751130067040021
+Account Swift Code: 108
+Account Sold: 500.0
+
+Tip obiect: Account 
+A fost creat: 2022-05-01 14:28:31.679
+Obiectul: Account Id: 201
+Account IBAN: RO35BCRB0751340067040021
+Account Swift Code: 101
+Account Sold: 700.0
+
+Tip obiect: Account 
+A fost creat: 2022-05-01 14:28:31.679
+Obiectul: Account Id: 202
+Account IBAN: RO35INGB0751130067042222
+Account Swift Code: 201
+Account Sold: 300.0
+
+Tip obiect: MasterCard 
+A fost creat: 2022-05-01 14:28:38.339
+Obiectul: Id Card: 300
+Iban: RO35INGB0751130067040022
+CVV: 109
+Expiration Date: Wed Apr 09 00:00:00 EEST 2025
+Type Card: Master
+Price Protection: true
+
+Tip obiect: VisaCard 
+A fost creat: 2022-05-01 14:28:38.354
+Obiectul: Id Card: 301
+Iban: RO35INGB0751130067040222
+CVV: 107
+Expiration Date: Thu Aug 03 00:00:00 EEST 2028
+Type Card: Visa
+Lost Luggage Reimbursement: false
+
+Tip obiect: MasterCard 
+A fost creat: 2022-05-01 14:28:38.354
+Obiectul: Id Card: 303
+Iban: RO35INGB0751130067040111
+CVV: 105
+Expiration Date: Mon Aug 03 00:00:00 EEST 2009
+Type Card: Master
+Price Protection: true
+
+Tip obiect: Transaction 
+A fost creat: 2022-05-01 14:28:44.062
+Obiectul: Id Transaction: 400
+From Account: RO35INGB0751130067040021
+toAccount: RO35INGB0751130067042222
+Amount: 400.0
+Description: food
+Date Of Transaction: Sun May 01 14:28:44 EEST 2022
+
+Tip obiect: Transaction 
+A fost creat: 2022-05-01 14:28:44.062
+Obiectul: Id Transaction: 400
+From Account: RO35INGB0751130067040021
+toAccount: RO35INGB0751130067042222
+Amount: 400.0
+Description: food
+Date Of Transaction: Sun May 01 14:28:44 EEST 2022
+

@@ -1,0 +1,47 @@
+Tema proiectului : Aplicatie Bancara
+
+Obiecte:
+ - 1. Account
+ - 2. SavingsAccount (mosteneste Account)
+ - 3. Card
+ - 4. MasterCard (mosteneste Card)
+ - 5. VisaCard (mosteneste Card)
+ - 6. Transaction
+ - 7. Person
+ - 8. Client (mosteneste Person)
+
+Interogari:
+ - 1. addClient : putem crea un client introdus de la tastatura
+ - 2. addClientsFromCsv : citeste clientii din CSV
+ - 3. showClient : afiseaza detaliile clientului cu id-ul introdus de la tastatura
+ - 4. showClients : afiseaza detaliile despre toti clientii bancii
+ - 5. deleteClient : sterge un client cu toate datele sale(cards, accounts,tranzactions,savings accounts)
+ - 6. updateClient : actualizeaza nr. de telefon,adresa si adresa de email
+ - 7. createAccount : putem crea un cont bancar introdus de la tastatura
+ - 8. addAccountsFromCsv : citeste conturile din CSV
+ - 9. deleteAccount : putem inchide un cont bancar cu id-ul introdus de la tastatura (se sterg si cardurile,tranzactiile)
+ - 10. showAccounts : afiseaza detaliile despre toate conturile clientului cu id-ul introdus de la tastatura
+ - 11. createCard : puteam crea un card introdus de la tastatura
+ - 12. addCardsFromCsv : citeste cardurile din CSV
+ - 13. deleteCard : putem sterge un card al carui id este dat de la tastatura
+ - 14. updateCard : actualizeaza data expirarii in cazul in care cardul expira anul acesta (daca esti de acord)
+ - 15. showCards : afiseaza detaliile despre toate cardurile unui cont
+ - 16. createTransaction : putem transfera bani de la un cont la altul
+ - 17. addTransactionsFromCsv : citeste tranzactiile din CSV
+ - 18. showTransactions : afiseaza istoricul tranzactiilor unui cont
+ - 19. createSavingsAccount : putem crea un cont de economii introdus de la tastatura
+ - 20. showSavingsAccounts : afiseaza conturile de economii ale unui client introdus de la tastatura
+ - 21. updateSavingsAccount : actualizeaza data inceperii, data inchiderii si suma pe care vrei sa o depui a unui cont de economii
+ - 22. deleteSavingsAccount : inchide un cont de economii
+
+ In baza de date se afla tabele pentru:
+ - clienti (nume tabel: client)
+ - conturi (nume tabel: account)
+ - conturi de economii (nume tabel: savingsaccount)
+ - carduri (Master Card sau Visa card) (nume tabel: card)
+
+ Am creat operatii de tip CRUD:
+ - read (toate se gasesc in metoda loadDataFromDb)
+ - create (se gasesc in metodele addClient, createAccount, createCard,createSavingsAccount)
+ - update (se gasesc in metodele updateClient, updateCard, updateSavingsAccount, createTransaction(in momentul realizarii unei tranzactii se actualizeaza soldul fiecarui cont implicat in tranzactie))
+ - delete (se gasesc in metodele deleteClient, deleteAccount, deleteCard, deleteSavingsAccount)
